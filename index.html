@@ -3,61 +3,43 @@
 <html lang="bg">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenHome - Поддръжка на дворове в Перник</title>
+    <title>GreenHome - Поддръжка на дворове</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>GreenHome</h1>
-        <p>Професионално косене и поддръжка на дворове в област Перник</p>
+        <p>Косене и поддръжка на дворове в област Перник</p>
     </header>
 
-    <section class="services">
+    <section id="services">
         <h2>Нашите услуги</h2>
         <ul>
-            <li>✅ Косене на трева</li>
-            <li>✅ Оформяне на храсти и жив плет</li>
-            <li>✅ Почистване на дворове и градини</li>
-            <li>✅ Сезонна поддръжка</li>
+            <li>Косене на трева</li>
+            <li>Почистване на бурени</li>
+            <li>Подрязване на храсти</li>
+            <li>Извозване на отпадъци</li>
         </ul>
     </section>
 
-    <section class="pricing">
-        <h2>Цени</h2>
-        <p>Цените започват от <strong>20 лв.</strong>, според площта и вида на услугата. Свържете се с нас за оферта.</p>
-    </section>
+    <section id="contact">
+        <h2>Свържете се с нас</h2>
+        <form action="https://formspree.io/f/xovlkkgb" method="POST">
+            <label for="name">Име:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
 
-    <section class="gallery">
-        <h2>Галерия</h2>
-        <p>Очаквайте скоро снимки от нашата работа!</p>
-    </section>
+            <label for="phone">Телефон:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
 
-    <section class="contact">
-        <h2>Контакти</h2>
-        <p>📞 Телефон: 0892781858</p>
-        <p>✉️ Имейл:greenhome @mail.bg</p>
-        <p>🕒 Работно време: Пон - Пет: 08:00 - 18:00</p>
-    </section>
+            <label for="message">Съобщение:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
 
-    <section class="form">
-       <form action="https://formspree.io/f/xovlkkgb" method="POST">
-  <label for="name">Име:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
-
-  <label for="phone">Телефон:</label><br>
-  <input type="tel" id="phone" name="phone" required><br><br>
-
-  <label for="message">Съобщение:</label><br>
-  <textarea id="message" name="message" required></textarea><br><br>
-
-  <button type="submit">Изпрати</button>
-</form>
-
+            <button type="submit">Изпрати</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2025 GreenHome - Всички права запазени.</p>
+        <p>© 2025 GreenHome - Всички права запазени</p>
     </footer>
 </body>
 </html>

@@ -3,53 +3,54 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #f0f9f0;
 }
+
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem;
 }
+
 section {
     padding: 2rem;
-    background-color: white;
-    margin: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 h2 {
     color: #4CAF50;
 }
-ul {
-    list-style: none;
-    padding: 0;
+
+form {
+    max-width: 400px;
+    margin-top: 1rem;
 }
-ul li {
-    padding: 0.5rem 0;
-}
-.form input, .form textarea {
+
+input, textarea {
     width: 100%;
     padding: 0.5rem;
+    margin-top: 0.3rem;
     margin-bottom: 1rem;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
 }
-.form button {
-    padding: 0.7rem 2rem;
+
+button {
+    padding: 0.7rem 1.2rem;
     background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
-.form button:hover {
+
+button:hover {
     background-color: #45a049;
 }
+
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #333;
-    color: white;
+    background-color: #e0e0e0;
+    color: #333;
 }
