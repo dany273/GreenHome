@@ -41,13 +41,19 @@
     </section>
 
     <section class="form">
-        <h2>Заявете услуга</h2>
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="Вашето име" required>
-            <input type="tel" name="phone" placeholder="Телефон за връзка" required>
-            <textarea name="message" placeholder="Какво бихте искали?" required></textarea>
-            <button type="submit">Изпрати</button>
-        </form>
+       <form action="https://formspree.io/f/xovlkkgb" method="POST">
+  <label for="name">Име:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="phone">Телефон:</label><br>
+  <input type="tel" id="phone" name="phone" required><br><br>
+
+  <label for="message">Съобщение:</label><br>
+  <textarea id="message" name="message" required></textarea><br><br>
+
+  <button type="submit">Изпрати</button>
+</form>
+
     </section>
 
     <footer>
