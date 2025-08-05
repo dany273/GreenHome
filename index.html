@@ -5,41 +5,47 @@
     <meta charset="UTF-8">
     <title>GreenHome - Поддръжка на дворове</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
-        <h1>GreenHome</h1>
-        <p>Косене и поддръжка на дворове в област Перник</p>
+        <div class="container">
+            <h1>GreenHome</h1>
+            <p>Професионална поддръжка на дворове и зелени площи в област Перник</p>
+        </div>
     </header>
 
-    <section id="services">
+    <section id="services" class="container">
         <h2>Нашите услуги</h2>
-        <ul>
-            <li>Косене на трева</li>
-            <li>Почистване на бурени</li>
-            <li>Подрязване на храсти</li>
-            <li>Извозване на отпадъци</li>
-        </ul>
+        <div class="service-list">
+            <div class="service-item">✅ Косене на трева</div>
+            <div class="service-item">✅ Почистване на бурени</div>
+            <div class="service-item">✅ Подрязване на храсти</div>
+            <div class="service-item">✅ Извозване на отпадъци</div>
+        </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="container">
         <h2>Свържете се с нас</h2>
+        <p>Попълнете формата и ще се свържем с Вас възможно най-скоро.</p>
         <form action="https://formspree.io/f/xovlkkgb" method="POST">
-            <label for="name">Име:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+            <label for="name">Име</label>
+            <input type="text" id="name" name="name" required>
 
-            <label for="phone">Телефон:</label><br>
-            <input type="tel" id="phone" name="phone" required><br><br>
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" required>
 
-            <label for="message">Съобщение:</label><br>
-            <textarea id="message" name="message" required></textarea><br><br>
+            <label for="message">Съобщение</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
 
             <button type="submit">Изпрати</button>
         </form>
     </section>
 
     <footer>
-        <p>© 2025 GreenHome - Всички права запазени</p>
+        <div class="container">
+            <p>© 2025 GreenHome | Перник | Всички права запазени</p>
+        </div>
     </footer>
 </body>
 </html>
